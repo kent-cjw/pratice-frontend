@@ -29,7 +29,8 @@
 }
 
 .header-search-wrap{
-    padding: 10px 0;
+    padding: 10px 0 0 0;
+    /* border: 1px solid red; */
 }
 
 .header-search{
@@ -39,6 +40,13 @@
     border-radius: 20px;
     margin-left: 220px;
     background-color: white;
+}
+
+.clear-fix::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
 }
 
 .search{
@@ -62,4 +70,35 @@
     background-color: #fadc5a;
     border: 0;
     outline: none;
+}
+
+.header-menu{
+    width: 1180px;
+    margin: 0 auto;
+    height: 60px;
+    background-color: white;
+}
+
+.menu-list >li{
+    float: left;
+    
+    list-style: none;
+    margin: 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.menu-list >li >a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-list >li >a:hover{
+    color: red;
+}
+
+.body-container{
+    width: 100%;
+    height: 1000px;
+    background-color: lightgrey;
 }
