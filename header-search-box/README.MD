@@ -5,3 +5,4 @@
 - search box on right
 
 #### The design of the hearder from https://www.gametanzi.com/
+![image](https://github.com/kent-cjw/pratice-frontend/blob/master/header-search-box/screenshot.jpg)
